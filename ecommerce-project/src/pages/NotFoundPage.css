@@ -1,0 +1,96 @@
+.not-found-page {
+  font-family: Roboto, Arial, sans-serif;
+  color: rgb(33, 33, 33);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  box-sizing: border-box;
+  background-color: rgb(250, 250, 250);
+}
+
+.not-found-page p {
+  margin: 0;
+}
+
+.not-found-page .not-found-container {
+  text-align: center;
+  padding: 40px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(230, 230, 230);
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(200, 200, 200, 0.3);
+  max-width: 450px;
+  width: 90%;
+  box-sizing: border-box;
+}
+
+.not-found-page .error-code {
+  font-size: 96px;
+  font-weight: 700;
+  color: rgb(25, 135, 84);
+  margin-bottom: 10px;
+  line-height: 1;
+}
+
+.not-found-page .error-title {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.not-found-page .error-message {
+  font-size: 15px;
+  color: rgb(100, 100, 100);
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+.not-found-page .button-group {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+.not-found-page .button-primary,
+.not-found-page .button-secondary {
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-weight: 500;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.not-found-page .button-primary {
+  color: white;
+  background-color: rgb(25, 135, 84);
+  border: 1px solid transparent;
+  box-shadow: 0 2px 5px rgba(220, 220, 220, 0.5);
+}
+
+.not-found-page .button-primary:hover {
+  background-color: rgba(25, 135, 84, 0.75);
+}
+
+.not-found-page .button-primary:active {
+  background-color: rgba(25, 135, 84, 0.5);
+  box-shadow: none;
+}
+
+.not-found-page .button-secondary {
+  color: rgb(33, 33, 33);
+  background: white;
+  border: 1px solid rgb(200, 200, 200);
+  box-shadow: 0 2px 5px rgba(220, 220, 220, 0.2);
+}
+
+.not-found-page .button-secondary:hover {
+  background-color: rgb(250, 250, 250);
+}
+
+.not-found-page .button-secondary:active {
+  background-color: rgb(240, 240, 240);
+  box-shadow: none;
+}
