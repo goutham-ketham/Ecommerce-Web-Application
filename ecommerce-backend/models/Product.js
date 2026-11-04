@@ -1,5 +1,5 @@
-// @ts-nocheck
-import { DataTypes } from "sequelize";
+import Sequelize from "sequelize";
+const { DataTypes } = Sequelize;
 import { sequelize } from "./index.js";
 
 export const Product = sequelize.define(
